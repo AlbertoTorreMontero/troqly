@@ -264,7 +264,7 @@ function router() {
     } catch (e) {
       const code = e.code || 'ai_error';
       console.error('[rules ask]', code, e.message);
-      res.status(code === 'quota' || code === 'daily_limit' ? 429 : 503).json({ error: code });
+      res.status(code === 'quota' || code === 'daily_limit' || code === 'busy' ? 429 : 503).json({ error: code });
     }
   }));
 

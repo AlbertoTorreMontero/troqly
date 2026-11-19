@@ -476,6 +476,7 @@
   "forbidden": "Only the host can do that.",
   "no_players": "There are no players at the table.",
   "bad_request": "Some data is missing.",
-  "bad_status": "Invalid status."
+  "bad_status": "Invalid status.",
+  "busy": "The AI is in high demand right now. Try again in a minute."
  }
 }

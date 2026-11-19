@@ -3,6 +3,7 @@ const { q, one } = require('./db');
 
 const BASE = process.env.GEMINI_BASE || 'https://generativelanguage.googleapis.com/v1beta';
 let resolvedModel = null;
+let candidates = [];
 
 const LIMITS = {
   rules: Number(process.env.AI_DAILY_RULES || 300),
@@ -31,7 +32,7 @@ async function call(path, init = {}) {
   let data;
   try { data = JSON.parse(text); } catch { data = { raw: text }; }
   if (!res.ok) {
-    const code = res.status === 429 ? 'quota' : res.status === 404 ? 'model_not_found' : res.status === 400 || res.status === 403 ? 'bad_key_or_request' : 'ai_error';
+    const code = res.status === 503 || /high demand|overloaded|unavailable/i.test(data?.error?.message || '') ? 'busy' : res.status === 429 ? 'quota' : res.status === 404 ? 'model_not_found' : res.status === 400 || res.status === 403 ? 'bad_key_or_request' : 'ai_error';
     const err = new AiError(code, data?.error?.message || `HTTP ${res.status}`);
     err.status = res.status;
     throw err;
@@ -48,7 +49,8 @@ async function pickModel() {
   const ver = (n) => parseFloat((n.match(/gemini-(\d+(?:\.\d+)?)/) || [0, 0])[1]);
   ok.sort((a, b) => (/lite/.test(a.name) - /lite/.test(b.name)) || (/preview|exp/.test(a.name) - /preview|exp/.test(b.name)) || ver(b.name) - ver(a.name));
   if (!ok.length) throw new AiError('model_not_found', 'No hay modelos Flash disponibles para esta clave');
-  return ok[0].name.replace(/^models\//, '');
+  candidates = ok.map((m) => m.name.replace(/^models\//, ''));
+  return candidates[0];
 }
 
 async function model() {
@@ -82,17 +84,21 @@ async function generate({ parts, system, schema, temperature = 0.2, scope = 'mis
     body.generationConfig.responseMimeType = 'application/json';
     body.generationConfig.responseSchema = schema;
   }
-  let m = await model();
-  let data;
-  try {
-    data = await call(`models/${m}:generateContent`, { method: 'POST', body: JSON.stringify(body) });
-  } catch (e) {
-    if (e.code === 'model_not_found' && process.env.GEMINI_MODEL) {
-      resolvedModel = await pickModel();
-      m = resolvedModel;
+  const first = await model();
+  if (!candidates.length) { try { await pickModel(); } catch { /* sin lista */ } }
+  const order = [first, ...candidates.filter((c) => c !== first)].slice(0, 4);
+  let data, lastErr;
+  for (const m of order) {
+    try {
       data = await call(`models/${m}:generateContent`, { method: 'POST', body: JSON.stringify(body) });
-    } else throw e;
+      if (m !== resolvedModel) resolvedModel = m; // nos quedamos con el que responde
+      break;
+    } catch (e) {
+      lastErr = e;
+      if (!['busy', 'model_not_found', 'quota'].includes(e.code)) throw e;
+    }
   }
+  if (!data) throw lastErr;
   const text = (data.candidates?.[0]?.content?.parts || []).map((p) => p.text || '').join('');
   if (!text) throw new AiError('empty', data.candidates?.[0]?.finishReason || 'sin respuesta');
   if (!schema) return text.trim();
@@ -110,7 +116,7 @@ const langName = (l) => LANG_NAMES[(l || 'en').slice(0, 2)] || 'English';
 
 let lastHealth = null;
 async function health() {
-  if (lastHealth && Date.now() - lastHealth.at < 10 * 60 * 1000) return lastHealth;
+  if (lastHealth && Date.now() - lastHealth.at < (lastHealth.ok ? 10 * 60 * 1000 : 20 * 1000)) return lastHealth;
   if (!enabled()) return (lastHealth = { ok: false, error: 'ai_disabled', at: Date.now() });
   try {
     const out = await generate({

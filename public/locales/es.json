@@ -476,6 +476,7 @@
   "forbidden": "Solo el anfitrión puede hacer eso.",
   "no_players": "No hay jugadores en la mesa.",
   "bad_request": "Faltan datos.",
-  "bad_status": "Estado no válido."
+  "bad_status": "Estado no válido.",
+  "busy": "La IA está muy solicitada ahora mismo. Prueba en un minuto."
  }
 }
