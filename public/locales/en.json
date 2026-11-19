@@ -1,0 +1,481 @@
+{
+ "brand": {
+  "slogan": "Your game nights, in one app"
+ },
+ "nav": {
+  "home": "Home",
+  "collection": "Collection",
+  "live": "Table",
+  "rules": "Rules",
+  "podcasts": "Podcasts",
+  "settings": "Settings",
+  "label": "Main navigation"
+ },
+ "common": {
+  "back": "Back",
+  "back_home": "Back to home",
+  "cancel": "Cancel",
+  "close": "Close",
+  "delete": "Delete",
+  "loading": "Loading…",
+  "save": "Save",
+  "saved": "Saved",
+  "share": "Share",
+  "you": "you"
+ },
+ "welcome": {
+  "join_title": "Invited to a table?",
+  "join_text": "Type the code on the screen. No account needed.",
+  "code_placeholder": "CODE",
+  "join_btn": "Join",
+  "footer": "Plays, rivalries, rules and podcasts. All in one place."
+ },
+ "auth": {
+  "create_account": "Create account",
+  "have_account": "I already have an account",
+  "no_account": "No account yet?",
+  "login": "Log in",
+  "login_title": "Welcome back",
+  "login_sub": "The table was waiting for you.",
+  "register_title": "Take a seat",
+  "register_sub": "Create your account and set up your gaming group.",
+  "name": "Your name or nickname",
+  "email": "Email",
+  "password": "Password",
+  "password_hint": "At least 8 characters."
+ },
+ "onboarding": {
+  "title": "Welcome, {name}!",
+  "text": "Create your gaming group, then invite your friends with a link.",
+  "or_invite": "Got an invite? Open the link and you'll land straight in their group."
+ },
+ "join": {
+  "invited": "You've been invited to",
+  "members": {
+   "one": "{count} member",
+   "other": "{count} members"
+  },
+  "join_btn": "Join the group",
+  "joined": "You're in {name}",
+  "not_found": "This invite link doesn't exist or has expired."
+ },
+ "home": {
+  "hello": "Hi, {name}",
+  "hot_label": "On fire",
+  "hot_streak": {
+   "one": "{name} has won {count} in a row. Someone has to stop them.",
+   "other": "{name} has won {count} in a row. Someone has to stop them."
+  },
+  "new_table": "Open a Live Table",
+  "live_now": "There's a table open",
+  "go": "Go",
+  "suggest_sub": "Based on players and time",
+  "stats_sub": {
+   "one": "{count} play in this group",
+   "other": "{count} plays in this group"
+  },
+  "group_sub": {
+   "one": "{count} gamer",
+   "other": "{count} gamers"
+  },
+  "shame_sub": "Still waiting to be punched",
+  "last_play": "Last play",
+  "see_all": "See all",
+  "no_plays": "No plays yet. Open the first table and let the rivalry begin.",
+  "shared_episodes": "Recommended by the group",
+  "shared_by": "Shared by {name}"
+ },
+ "group": {
+  "name": "Group name",
+  "name_placeholder": "Thursday night crew",
+  "create": "Create group",
+  "created": "Group created!",
+  "switch": "Switch group",
+  "invite": "Invite your people",
+  "invite_help": "Share this link. Whoever opens it joins the group.",
+  "invite_text": "Join {name} on TROQLY and let the rivalry begin 🎲",
+  "copy_link": "Copy the link",
+  "link_copied": "Link copied",
+  "ranking": "Leaderboard",
+  "wins_of": "{wins} wins out of {plays}",
+  "streak": {
+   "one": "{count} in a row",
+   "other": "{count} in a row"
+  },
+  "no_ranking": "No leaderboard yet. Time to play.",
+  "rivalries": "Rivalries",
+  "rival_you_win": "You beat {name} {me}–{them} at {game}. Stay humble.",
+  "rival_they_win": "{name} beats you {them}–{me} at {game}. This needs fixing.",
+  "rival_tie": "Tied {me}–{them} with {name} at {game}. Tiebreaker needed.",
+  "no_rivalries": "Once you play together you'll see who dominates whom.",
+  "members_title": {
+   "one": "{count} member",
+   "other": "{count} members"
+  },
+  "owner": "Creator",
+  "new_group": "Create another group"
+ },
+ "collection": {
+  "title": "Collection",
+  "add": "Add",
+  "add_title": "Add to collection",
+  "added": "Added to your collection",
+  "mine": "Mine",
+  "group": "Group · {name}",
+  "all": "All",
+  "pile_of_shame": "Pile of Shame",
+  "pile_help": "Games you own and still haven't played. No pressure… well, a little.",
+  "count": {
+   "one": "{count} game",
+   "other": "{count} games"
+  },
+  "plays": {
+   "one": "{count} play",
+   "other": "{count} plays"
+  },
+  "empty": "Nothing here yet. Add your games and start keeping score.",
+  "no_shame": "Not a single unplayed game. Respect.",
+  "search_placeholder": "Search a game…",
+  "status": "Status",
+  "not_found": "Can't find it?",
+  "add_manual": "Add it manually"
+ },
+ "status": {
+  "owned": "Owned",
+  "wishlist": "Wishlist",
+  "want_to_play": "Want to play",
+  "unplayed": "Unplayed"
+ },
+ "filters": {
+  "players": "Players",
+  "time": "Length",
+  "mechanic": "Mechanic",
+  "long": "Over 2 h"
+ },
+ "mech": {
+  "area_control": "Area control",
+  "auction": "Auction",
+  "bluffing": "Bluffing",
+  "cooperative": "Cooperative",
+  "deck_building": "Deck building",
+  "deduction": "Deduction",
+  "dice_rolling": "Dice rolling",
+  "drafting": "Drafting",
+  "engine_building": "Engine building",
+  "hand_management": "Hand management",
+  "legacy": "Legacy",
+  "negotiation": "Negotiation",
+  "party": "Party",
+  "pattern_building": "Pattern building",
+  "push_your_luck": "Push your luck",
+  "puzzle": "Puzzle / abstract",
+  "real_time": "Real time",
+  "roll_write": "Roll & write",
+  "route_building": "Route building",
+  "set_collection": "Set collection",
+  "social_deduction": "Hidden roles",
+  "tile_placement": "Tile placement",
+  "trading": "Trading",
+  "trick_taking": "Trick taking",
+  "worker_placement": "Worker placement"
+ },
+ "game": {
+  "coop": "Cooperative",
+  "group_plays": "Group plays",
+  "record": "Record: {score} points by {name}",
+  "my_copy": "My copy",
+  "price": "Price paid ({cur})",
+  "cost_per_play": "That's {value} per play.",
+  "play_now": "Play now",
+  "no_manual": "No rulebook yet. Upload it and ask anything.",
+  "listen": "Listen about this game",
+  "no_episodes": "We haven't found episodes about this game yet.",
+  "search_podcasts": "Search podcasts",
+  "won_by": "{name} won"
+ },
+ "game_new": {
+  "title": "Add a game manually",
+  "name": "Game name",
+  "min_players": "Min. players",
+  "max_players": "Max. players",
+  "min_minutes": "Min. minutes",
+  "max_minutes": "Max. minutes",
+  "save": "Save game"
+ },
+ "live": {
+  "new_title": "New Live Table",
+  "new_sub": "Pick the game. Friends join from their phones with the QR, nothing to install.",
+  "no_games": "No matching games.",
+  "host_plays": "I'm playing too",
+  "low_wins": "Lowest score wins",
+  "low_wins_on": "In this game the lowest score wins.",
+  "create": "Open table",
+  "not_found": "This table doesn't exist or is already closed.",
+  "scan": "Scan to join from your phone",
+  "qr_alt": "QR code to join table {code}",
+  "players_title": {
+   "one": "{count} player",
+   "other": "{count} players"
+  },
+  "hide_qr": "Hide QR",
+  "show_qr": "Show QR",
+  "add_offline": "Add a player without a phone",
+  "scoreboard": "Scoreboard",
+  "their_turn": "Their turn",
+  "points_of": "{name}'s points",
+  "plus_one": "Add a point to {name}",
+  "minus_one": "Take a point from {name}",
+  "set_score": "Exact score:",
+  "turn_timer": "Turn timer",
+  "start_timer": "Start turns",
+  "next_turn": "Next turn",
+  "pause": "Pause",
+  "dice": "Dice",
+  "roll": "Roll",
+  "rolled": "{name} rolled {total} (d{sides})",
+  "who_first": "Who goes first?",
+  "pick": "Pick",
+  "first_is": "{name} goes first",
+  "end": "End game",
+  "host_ends": "The host will close the game at the end.",
+  "end_title": "Wrap it up?",
+  "end_confirm": "Show the podium",
+  "kingmaker_q": "Was there a Kingmaker?",
+  "kingmaker_help": "Someone who couldn't win but decided who did. Optional.",
+  "nobody": "Nobody",
+  "coop_question": "Did you beat the game?",
+  "coop_yes": "We won!",
+  "coop_no": "The game won",
+  "coop_won": "Team victory",
+  "coop_lost": "Team defeat",
+  "coop_won_big": "Team victory!",
+  "coop_lost_big": "The game won this time",
+  "wins_title": "{name} wins!",
+  "winner": "Winner",
+  "share_card": "Share card",
+  "rematch": "Rematch"
+ },
+ "player": {
+  "join_title": "Take a seat!",
+  "join_sub": "You're playing {game}. What should we call you?",
+  "nickname": "Your nickname",
+  "pick_emoji": "Pick your token",
+  "enter": "Join",
+  "no_account_needed": "No sign-up, no download.",
+  "custom": "Other amount",
+  "end_turn": "I'm done",
+  "turn_of": "{name}'s turn",
+  "you_won": "You won. Enjoy it, the others are already asking for a rematch.",
+  "save_title": "Keep this play?",
+  "save_text": "Create your account and this play will go to your history and stats.",
+  "play": "Play",
+  "pause": "Pause",
+  "back30": "Back 30 seconds",
+  "fwd30": "Forward 30 seconds",
+  "seek": "Episode position",
+  "speed": "Speed {x}×"
+ },
+ "ach": {
+  "ap": {
+   "name": "AP",
+   "desc": "Analysis paralysis: the slowest average turn.",
+   "line": "{name} took their sweet time every turn."
+  },
+  "kingmaker": {
+   "name": "Kingmaker",
+   "desc": "Couldn't win, but decided who did.",
+   "line": "{name} decided who won."
+  },
+  "sandbagger": {
+   "name": "Sandbagger",
+   "desc": "Won after being in last place.",
+   "line": "{name} was dead last and came back."
+  },
+  "record": {
+   "name": "Record",
+   "desc": "The group's best score in that game.",
+   "line": "{name} broke the group record."
+  },
+  "first_unbox": {
+   "name": "Punched out",
+   "desc": "The group's first play of a game.",
+   "line": "Game punched. One less in the Pile of Shame."
+  },
+  "streak_3": {
+   "name": "3-win streak",
+   "desc": "Three wins in a row in the group.",
+   "line": "{name} has won 3 in a row."
+  },
+  "streak_5": {
+   "name": "5-win streak",
+   "desc": "Five wins in a row. Someone do something.",
+   "line": "{name} has won 5 in a row."
+  },
+  "streak_10": {
+   "name": "Unstoppable",
+   "desc": "Ten wins in a row.",
+   "line": "{name} has won 10 in a row. It's personal now."
+  }
+ },
+ "stats": {
+  "title": "Stats",
+  "all_groups": "All my groups",
+  "empty": "Play your first game and the numbers start here.",
+  "win_pct": "Wins",
+  "plays": "Plays",
+  "h_index": "H-index",
+  "current_streak": "Current streak",
+  "best_streak": "Best streak",
+  "hours": "Hours played",
+  "h_help": "H-index {h}: the largest number N of games you've played at least N times",
+  "fives_dimes": "{fives} games with 5+ plays, {dimes} with 10+",
+  "heatmap": "Your game nights (6 months)",
+  "most_played": "Most played",
+  "wins_n": {
+   "one": "{count} win",
+   "other": "{count} wins"
+  },
+  "by_mechanic": "By mechanic",
+  "achievements": "Achievements",
+  "no_achievements": "No achievements yet. The table will decide.",
+  "glossary": "What does each achievement mean?",
+  "cost_per_play": "Cost per play",
+  "cost_help": "Add the price you paid on each game page and see how much every play costs you."
+ },
+ "history": {
+  "title": "History",
+  "confirm_delete": "Delete this play? It will be removed from everyone's stats."
+ },
+ "suggest": {
+  "title": "What should we play?",
+  "players_q": "How many of you?",
+  "time_q": "How much time do you have?",
+  "results": {
+   "one": "{count} option in the group's collection",
+   "other": "{count} options in the group's collection"
+  },
+  "top": "Our pick",
+  "unplayed": "Unplayed",
+  "owner": "{name}'s",
+  "none": "No group game fits. Try more time or add games."
+ },
+ "rules": {
+  "title": "Rules",
+  "hero": "Ask the rulebook",
+  "hero_sub": "Upload a game's rulebook and ask like you would at the table. It only answers with what the rulebook says, and tells you the page.",
+  "manuals": "Group rulebooks",
+  "pages": {
+   "one": "{count} page",
+   "other": "{count} pages"
+  },
+  "status_processing": "Processing…",
+  "status_error": "We couldn't read this rulebook. Try another PDF or sharper photos.",
+  "status_error_ai": "Reading photos or scanned PDFs needs AI enabled on the server.",
+  "status_error_quota": "The AI has hit today's limit. Upload it again tomorrow.",
+  "upload_title": "Upload a rulebook",
+  "upload_short": "Upload rulebook",
+  "which_game": "Which game?",
+  "add_game_first": "Add the game to your collection first.",
+  "files": "PDF or photos of the pages",
+  "files_help": "If they're photos, upload them in order. We keep the text, not the file.",
+  "upload_btn": "Upload and prepare",
+  "uploading": "Uploading…",
+  "processing": "Reading the rulebook page by page. Photos take a bit longer.",
+  "promise": "It only answers with what the rulebook says. If it's not there, it tells you.",
+  "cross_lang": "The rulebook is in {lang}: I answer in your language and quote the original page.",
+  "placeholder": "Can I trade on someone else's turn?",
+  "ask": "Ask",
+  "thinking": "Searching the rulebook…",
+  "page": "P. {n}",
+  "not_found": "It's not in the rulebook.",
+  "not_found_help": "Try asking another way or check the rulebook index. Better that than making up a rule.",
+  "flag": "Wrong answer?",
+  "flagged": "Flagged as wrong",
+  "flag_thanks": "Thanks. The group will see the warning.",
+  "group_questions": "Group questions",
+  "original_text": "Original rulebook text"
+ },
+ "podcasts": {
+  "title": "Podcasts",
+  "library": "My library",
+  "search": "Search podcasts or games…",
+  "all_langs": "All",
+  "following": "Following",
+  "follow": "Follow",
+  "followed": "You now follow this podcast",
+  "unfollowed": "Unfollowed",
+  "empty": "No podcasts with this filter.",
+  "for_your_group": "For your group",
+  "source_note": "Data from public podcast directories. Audio plays from each podcast's own host.",
+  "episodes": {
+   "one": "{count} episode",
+   "other": "{count} episodes"
+  },
+  "no_episodes": "We couldn't load episodes.",
+  "queue": "Listen later",
+  "unqueue": "Remove from later",
+  "queued": "Saved for later",
+  "unqueued": "Removed from later",
+  "in_queue": "In listen later",
+  "resume_at": "Resume at {time}",
+  "share_group": "Share with the group",
+  "share_message": "Message (optional)",
+  "share_placeholder": "Listen to this review before buying it",
+  "shared": "Shared with the group",
+  "games_in_episode": "Games in this episode",
+  "summary": "Summary",
+  "no_summary": "This episode has no description to summarize.",
+  "summary_note": "AI summary based on the episode description.",
+  "description": "Original description",
+  "continue": "Keep listening",
+  "new_episodes": "New episodes",
+  "no_new": "Nothing new since last time.",
+  "follow_some": "Follow some podcasts and their new episodes will show up here.",
+  "later": "Listen later",
+  "queue_empty": "Your list is empty.",
+  "following_title": "Podcasts you follow",
+  "explore": "Explore podcasts"
+ },
+ "settings": {
+  "title": "Settings",
+  "language": "Language",
+  "language_help": "Dates, numbers and currencies follow your language and country.",
+  "theme": "Theme",
+  "dark": "Night",
+  "light": "Light",
+  "currency": "Currency",
+  "install_help": "Install it on your phone: on iPhone, Share → “Add to Home Screen”; on Android, menu → “Install app”.",
+  "logout": "Log out"
+ },
+ "share": {
+  "text": "This is how our {game} game ended 🎲 #TROQLY"
+ },
+ "errors": {
+  "server": "Something went wrong. Try again in a moment.",
+  "offline": "You're offline. Check your connection.",
+  "auth_required": "You need to log in.",
+  "bad_email": "That email doesn't look right.",
+  "short_password": "The password needs at least 8 characters.",
+  "email_taken": "There's already an account with that email.",
+  "bad_login": "Wrong email or password.",
+  "not_member": "You're not in this group.",
+  "not_found": "We couldn't find it.",
+  "name_required": "The name is missing.",
+  "ai_disabled": "AI isn't enabled on the server.",
+  "quota": "The AI is busy. Try again in a minute.",
+  "daily_limit": "The AI is resting until tomorrow: we've hit today's free limit.",
+  "ai_error": "The AI couldn't answer. Try again.",
+  "bad_key_or_request": "The AI rejected the request.",
+  "model_not_found": "The AI isn't available right now.",
+  "bad_json": "The AI replied something odd. Try again.",
+  "empty": "Type a question.",
+  "not_ready": "The rulebook is still being prepared.",
+  "no_files": "Upload a PDF or photos.",
+  "too_big": "The file is too big (25 MB max).",
+  "full": "The table is full.",
+  "forbidden": "Only the host can do that.",
+  "no_players": "There are no players at the table.",
+  "bad_request": "Some data is missing.",
+  "bad_status": "Invalid status."
+ }
+}

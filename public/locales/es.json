@@ -1,0 +1,481 @@
+{
+ "brand": {
+  "slogan": "Tus noches de juegos, en una app"
+ },
+ "nav": {
+  "home": "Inicio",
+  "collection": "Colección",
+  "live": "Mesa",
+  "rules": "Reglas",
+  "podcasts": "Podcasts",
+  "settings": "Ajustes",
+  "label": "Navegación principal"
+ },
+ "common": {
+  "back": "Volver",
+  "back_home": "Volver al inicio",
+  "cancel": "Cancelar",
+  "close": "Cerrar",
+  "delete": "Borrar",
+  "loading": "Cargando…",
+  "save": "Guardar",
+  "saved": "Guardado",
+  "share": "Compartir",
+  "you": "tú"
+ },
+ "welcome": {
+  "join_title": "¿Te han invitado a una mesa?",
+  "join_text": "Escribe el código que se ve en la pantalla. No hace falta cuenta.",
+  "code_placeholder": "CÓDIGO",
+  "join_btn": "Entrar",
+  "footer": "Partidas, piques, reglas y podcasts. Todo en el mismo sitio."
+ },
+ "auth": {
+  "create_account": "Crear cuenta",
+  "have_account": "Ya tengo cuenta",
+  "no_account": "¿Aún no tienes cuenta?",
+  "login": "Entrar",
+  "login_title": "Hola de nuevo",
+  "login_sub": "La mesa te estaba esperando.",
+  "register_title": "Únete a la mesa",
+  "register_sub": "Crea tu cuenta y monta tu grupo de jugones.",
+  "name": "Tu nombre o apodo",
+  "email": "Email",
+  "password": "Contraseña",
+  "password_hint": "Mínimo 8 caracteres."
+ },
+ "onboarding": {
+  "title": "¡Bienvenido, {name}!",
+  "text": "Crea tu grupo de juego. Luego invitas a tus amigos con un enlace.",
+  "or_invite": "¿Te ha invitado alguien? Abre su enlace y entrarás directamente en su grupo."
+ },
+ "join": {
+  "invited": "Te han invitado a",
+  "members": {
+   "one": "{count} miembro",
+   "other": "{count} miembros"
+  },
+  "join_btn": "Unirme al grupo",
+  "joined": "Ya estás en {name}",
+  "not_found": "Este enlace de invitación no existe o ha caducado."
+ },
+ "home": {
+  "hello": "Hola, {name}",
+  "hot_label": "En racha",
+  "hot_streak": {
+   "one": "{name} lleva {count} seguida. Alguien tendrá que pararle los pies.",
+   "other": "{name} lleva {count} seguidas. Alguien tendrá que pararle los pies."
+  },
+  "new_table": "Abrir Mesa en vivo",
+  "live_now": "Hay una mesa abierta",
+  "go": "Ir",
+  "suggest_sub": "Según cuántos sois y el tiempo",
+  "stats_sub": {
+   "one": "{count} partida en el grupo",
+   "other": "{count} partidas en el grupo"
+  },
+  "group_sub": {
+   "one": "{count} jugón",
+   "other": "{count} jugones"
+  },
+  "shame_sub": "Los que siguen sin estrenar",
+  "last_play": "Última partida",
+  "see_all": "Ver todas",
+  "no_plays": "Aún no hay partidas. Abre la primera mesa y que empiece el pique.",
+  "shared_episodes": "Recomendado por el grupo",
+  "shared_by": "Compartido por {name}"
+ },
+ "group": {
+  "name": "Nombre del grupo",
+  "name_placeholder": "Los del jueves",
+  "create": "Crear grupo",
+  "created": "¡Grupo creado!",
+  "switch": "Cambiar de grupo",
+  "invite": "Invita a tu gente",
+  "invite_help": "Comparte este enlace. Quien lo abra entra en el grupo.",
+  "invite_text": "Únete a {name} en TROQLY y que empiece el pique 🎲",
+  "copy_link": "Copia el enlace",
+  "link_copied": "Enlace copiado",
+  "ranking": "Clasificación",
+  "wins_of": "{wins} victorias de {plays}",
+  "streak": {
+   "one": "{count} seguida",
+   "other": "{count} seguidas"
+  },
+  "no_ranking": "Todavía no hay clasificación. Toca jugar.",
+  "rivalries": "Rivalidades",
+  "rival_you_win": "Le ganas {me}–{them} a {name} en {game}. Que no se te suba.",
+  "rival_they_win": "{name} te gana {them}–{me} en {game}. Esto hay que arreglarlo.",
+  "rival_tie": "Empate {me}–{them} con {name} en {game}. Hace falta un desempate.",
+  "no_rivalries": "Cuando juguéis juntos verás aquí quién domina a quién.",
+  "members_title": {
+   "one": "{count} miembro",
+   "other": "{count} miembros"
+  },
+  "owner": "Creador",
+  "new_group": "Crear otro grupo"
+ },
+ "collection": {
+  "title": "Colección",
+  "add": "Añadir",
+  "add_title": "Añadir a la colección",
+  "added": "Añadido a tu colección",
+  "mine": "La mía",
+  "group": "Del grupo · {name}",
+  "all": "Todos",
+  "pile_of_shame": "Pile of Shame",
+  "pile_help": "Juegos que tienes y todavía no has estrenado. Sin presión… o con un poco.",
+  "count": {
+   "one": "{count} juego",
+   "other": "{count} juegos"
+  },
+  "plays": {
+   "one": "{count} partida",
+   "other": "{count} partidas"
+  },
+  "empty": "Aquí no hay nada. Añade tus juegos y empieza a llevar la cuenta.",
+  "no_shame": "Ni un juego sin estrenar. Respeto.",
+  "search_placeholder": "Busca un juego…",
+  "status": "Estado",
+  "not_found": "¿No lo encuentras?",
+  "add_manual": "Añádelo a mano"
+ },
+ "status": {
+  "owned": "Lo tengo",
+  "wishlist": "Lo quiero",
+  "want_to_play": "Quiero jugarlo",
+  "unplayed": "Sin estrenar"
+ },
+ "filters": {
+  "players": "Jugadores",
+  "time": "Duración",
+  "mechanic": "Mecánica",
+  "long": "Más de 2 h"
+ },
+ "mech": {
+  "area_control": "Control de áreas",
+  "auction": "Subastas",
+  "bluffing": "Faroles",
+  "cooperative": "Cooperativo",
+  "deck_building": "Construcción de mazos",
+  "deduction": "Deducción",
+  "dice_rolling": "Dados",
+  "drafting": "Draft",
+  "engine_building": "Construcción de motor",
+  "hand_management": "Gestión de mano",
+  "legacy": "Legacy",
+  "negotiation": "Negociación",
+  "party": "Party",
+  "pattern_building": "Patrones",
+  "push_your_luck": "Tentar la suerte",
+  "puzzle": "Puzle / abstracto",
+  "real_time": "Tiempo real",
+  "roll_write": "Tirar y escribir",
+  "route_building": "Rutas",
+  "set_collection": "Colecciones",
+  "social_deduction": "Roles ocultos",
+  "tile_placement": "Losetas",
+  "trading": "Comercio",
+  "trick_taking": "Bazas",
+  "worker_placement": "Colocación de trabajadores"
+ },
+ "game": {
+  "coop": "Cooperativo",
+  "group_plays": "Partidas del grupo",
+  "record": "Récord: {score} puntos de {name}",
+  "my_copy": "Mi copia",
+  "price": "Precio pagado ({cur})",
+  "cost_per_play": "Te sale a {value} por partida.",
+  "play_now": "Jugar ahora",
+  "no_manual": "Aún no hay manual. Súbelo y pregunta lo que quieras.",
+  "listen": "Escuchar sobre este juego",
+  "no_episodes": "Todavía no hemos encontrado episodios sobre este juego.",
+  "search_podcasts": "Buscar en podcasts",
+  "won_by": "Ganó {name}"
+ },
+ "game_new": {
+  "title": "Añadir juego a mano",
+  "name": "Nombre del juego",
+  "min_players": "Mín. jugadores",
+  "max_players": "Máx. jugadores",
+  "min_minutes": "Mín. minutos",
+  "max_minutes": "Máx. minutos",
+  "save": "Guardar juego"
+ },
+ "live": {
+  "new_title": "Nueva Mesa en vivo",
+  "new_sub": "Elige el juego. Tus amigos entran con el QR desde el móvil, sin instalar nada.",
+  "no_games": "No hay juegos que coincidan.",
+  "host_plays": "Yo también juego",
+  "low_wins": "Gana quien tenga menos puntos",
+  "low_wins_on": "En esta partida gana quien tenga menos puntos.",
+  "create": "Abrir mesa",
+  "not_found": "Esta mesa no existe o ya ha cerrado.",
+  "scan": "Escanea para entrar desde tu móvil",
+  "qr_alt": "Código QR para entrar en la mesa {code}",
+  "players_title": {
+   "one": "{count} jugador",
+   "other": "{count} jugadores"
+  },
+  "hide_qr": "Ocultar QR",
+  "show_qr": "Mostrar QR",
+  "add_offline": "Añadir jugador sin móvil",
+  "scoreboard": "Marcador",
+  "their_turn": "Le toca",
+  "points_of": "Puntos de {name}",
+  "plus_one": "Sumar un punto a {name}",
+  "minus_one": "Restar un punto a {name}",
+  "set_score": "Puntuación exacta:",
+  "turn_timer": "Temporizador por turno",
+  "start_timer": "Empezar turnos",
+  "next_turn": "Siguiente turno",
+  "pause": "Pausa",
+  "dice": "Dado",
+  "roll": "Tirar",
+  "rolled": "{name} ha sacado {total} (d{sides})",
+  "who_first": "¿Quién empieza?",
+  "pick": "Sortear",
+  "first_is": "Empieza {name}",
+  "end": "Terminar partida",
+  "host_ends": "El anfitrión cerrará la partida al final.",
+  "end_title": "¿Cerramos la partida?",
+  "end_confirm": "Ver el podio",
+  "kingmaker_q": "¿Alguien hizo de Kingmaker?",
+  "kingmaker_help": "Quien, sin poder ganar, decidió quién ganaba. Opcional.",
+  "nobody": "Nadie",
+  "coop_question": "¿Habéis ganado al juego?",
+  "coop_yes": "¡Ganamos!",
+  "coop_no": "Nos ha ganado",
+  "coop_won": "Victoria del equipo",
+  "coop_lost": "Derrota del equipo",
+  "coop_won_big": "¡Victoria del equipo!",
+  "coop_lost_big": "Esta vez ganó el juego",
+  "wins_title": "¡{name} gana!",
+  "winner": "Ganador",
+  "share_card": "Compartir tarjeta",
+  "rematch": "Revancha"
+ },
+ "player": {
+  "join_title": "¡A la mesa!",
+  "join_sub": "Vais a jugar a {game}. ¿Cómo te llamamos?",
+  "nickname": "Tu apodo",
+  "pick_emoji": "Elige tu ficha",
+  "enter": "Entrar",
+  "no_account_needed": "Sin registros ni descargas.",
+  "custom": "Otra cantidad",
+  "end_turn": "Terminé mi turno",
+  "turn_of": "Le toca a {name}",
+  "you_won": "Has ganado. Disfrútalo, que el resto ya está pidiendo revancha.",
+  "save_title": "¿Guardamos esta partida?",
+  "save_text": "Crea tu cuenta y esta partida pasará a tu historial y a tus estadísticas.",
+  "play": "Reproducir",
+  "pause": "Pausar",
+  "back30": "Atrás 30 segundos",
+  "fwd30": "Adelante 30 segundos",
+  "seek": "Posición del episodio",
+  "speed": "Velocidad {x}×"
+ },
+ "ach": {
+  "ap": {
+   "name": "AP",
+   "desc": "Análisis-parálisis: quien más tarda de media en su turno.",
+   "line": "{name} se ha tomado su tiempo en cada turno."
+  },
+  "kingmaker": {
+   "name": "Kingmaker",
+   "desc": "Sin opciones de ganar, decidió quién se llevaba la partida.",
+   "line": "{name} ha decidido quién ganaba."
+  },
+  "sandbagger": {
+   "name": "Sandbagger",
+   "desc": "Ganar viniendo desde el último puesto.",
+   "line": "{name} iba último y ha remontado."
+  },
+  "record": {
+   "name": "Récord",
+   "desc": "La mejor puntuación del grupo en ese juego.",
+   "line": "{name} ha batido el récord del grupo."
+  },
+  "first_unbox": {
+   "name": "Destroquelado",
+   "desc": "La primera partida del grupo a un juego.",
+   "line": "Juego estrenado. Adiós al Pile of Shame."
+  },
+  "streak_3": {
+   "name": "Racha de 3",
+   "desc": "Tres victorias seguidas en el grupo.",
+   "line": "{name} lleva 3 seguidas."
+  },
+  "streak_5": {
+   "name": "Racha de 5",
+   "desc": "Cinco victorias seguidas. Alguien tiene que hacer algo.",
+   "line": "{name} lleva 5 seguidas."
+  },
+  "streak_10": {
+   "name": "Imparable",
+   "desc": "Diez victorias seguidas.",
+   "line": "{name} lleva 10 seguidas. Esto ya es personal."
+  }
+ },
+ "stats": {
+  "title": "Estadísticas",
+  "all_groups": "Todos mis grupos",
+  "empty": "Juega tu primera partida y aquí empezarán los números.",
+  "win_pct": "Victorias",
+  "plays": "Partidas",
+  "h_index": "H-index",
+  "current_streak": "Racha actual",
+  "best_streak": "Mejor racha",
+  "hours": "Horas jugadas",
+  "h_help": "H-index {h}: el mayor número N de juegos que has jugado al menos N veces",
+  "fives_dimes": "{fives} juegos con 5+ partidas, {dimes} con 10+",
+  "heatmap": "Tus noches de juego (6 meses)",
+  "most_played": "Los más jugados",
+  "wins_n": {
+   "one": "{count} victoria",
+   "other": "{count} victorias"
+  },
+  "by_mechanic": "Por mecánica",
+  "achievements": "Logros",
+  "no_achievements": "Todavía sin logros. La mesa decidirá.",
+  "glossary": "¿Qué significa cada logro?",
+  "cost_per_play": "Coste por partida",
+  "cost_help": "Añade el precio que pagaste en la ficha de cada juego y verás cuánto te sale cada partida."
+ },
+ "history": {
+  "title": "Historial",
+  "confirm_delete": "¿Borrar esta partida? Se quitará de las estadísticas de todos."
+ },
+ "suggest": {
+  "title": "¿A qué jugamos?",
+  "players_q": "¿Cuántos sois?",
+  "time_q": "¿Cuánto tiempo tenéis?",
+  "results": {
+   "one": "{count} opción en la colección del grupo",
+   "other": "{count} opciones en la colección del grupo"
+  },
+  "top": "Nuestra apuesta",
+  "unplayed": "Sin estrenar",
+  "owner": "De {name}",
+  "none": "Ningún juego del grupo encaja. Prueba con más tiempo o añade juegos."
+ },
+ "rules": {
+  "title": "Reglas",
+  "hero": "Pregunta al manual",
+  "hero_sub": "Sube el manual de un juego y pregunta como hablarías en la mesa. Solo responde con lo que dice el manual y te dice la página.",
+  "manuals": "Manuales del grupo",
+  "pages": {
+   "one": "{count} página",
+   "other": "{count} páginas"
+  },
+  "status_processing": "Procesando…",
+  "status_error": "No hemos podido leer este manual. Prueba con otro PDF o con fotos más nítidas.",
+  "status_error_ai": "Para leer fotos o PDF escaneados hace falta la IA activada en el servidor.",
+  "status_error_quota": "La IA ha llegado a su límite de hoy. Vuelve a subirlo mañana.",
+  "upload_title": "Subir un manual",
+  "upload_short": "Subir manual",
+  "which_game": "¿De qué juego?",
+  "add_game_first": "Primero añade el juego a tu colección.",
+  "files": "PDF o fotos de las páginas",
+  "files_help": "Si son fotos, súbelas en orden. Se guarda el texto, no el archivo.",
+  "upload_btn": "Subir y preparar",
+  "uploading": "Subiendo…",
+  "processing": "Leyendo el manual página a página. Tarda un poco con fotos.",
+  "promise": "Solo responde con lo que pone el manual. Si no está, te lo dice.",
+  "cross_lang": "El manual está en {lang}: te respondo en tu idioma y cito la página original.",
+  "placeholder": "¿Se puede comerciar en el turno de otro?",
+  "ask": "Preguntar",
+  "thinking": "Buscando en el manual…",
+  "page": "Pág. {n}",
+  "not_found": "No aparece en el manual.",
+  "not_found_help": "Prueba a preguntar de otra forma o mira el índice del manual. Mejor eso que inventarnos una regla.",
+  "flag": "¿Respuesta incorrecta?",
+  "flagged": "Marcada como incorrecta",
+  "flag_thanks": "Gracias. El grupo verá el aviso.",
+  "group_questions": "Preguntas del grupo",
+  "original_text": "Texto original del manual"
+ },
+ "podcasts": {
+  "title": "Podcasts",
+  "library": "Mi biblioteca",
+  "search": "Busca podcasts o juegos…",
+  "all_langs": "Todos",
+  "following": "Siguiendo",
+  "follow": "Seguir",
+  "followed": "Ahora sigues este podcast",
+  "unfollowed": "Ya no lo sigues",
+  "empty": "No hay podcasts con este filtro.",
+  "for_your_group": "Para tu grupo",
+  "source_note": "Datos de directorios públicos de podcasts. El audio se reproduce desde la web de cada podcast.",
+  "episodes": {
+   "one": "{count} episodio",
+   "other": "{count} episodios"
+  },
+  "no_episodes": "No hemos podido cargar episodios.",
+  "queue": "Escuchar más tarde",
+  "unqueue": "Quitar de más tarde",
+  "queued": "Guardado para más tarde",
+  "unqueued": "Quitado de más tarde",
+  "in_queue": "En más tarde",
+  "resume_at": "Seguir en {time}",
+  "share_group": "Compartir con el grupo",
+  "share_message": "Mensaje (opcional)",
+  "share_placeholder": "Escuchad esta reseña antes de comprarlo",
+  "shared": "Compartido con el grupo",
+  "games_in_episode": "Juegos de este episodio",
+  "summary": "Resumen",
+  "no_summary": "Este episodio no trae descripción para resumir.",
+  "summary_note": "Resumen generado con IA a partir de la descripción del episodio.",
+  "description": "Descripción original",
+  "continue": "Seguir escuchando",
+  "new_episodes": "Episodios nuevos",
+  "no_new": "Nada nuevo desde la última vez.",
+  "follow_some": "Sigue algunos podcasts y aquí verás sus novedades.",
+  "later": "Para escuchar más tarde",
+  "queue_empty": "Tu lista está vacía.",
+  "following_title": "Podcasts que sigues",
+  "explore": "Explorar podcasts"
+ },
+ "settings": {
+  "title": "Ajustes",
+  "language": "Idioma",
+  "language_help": "Fechas, números y monedas se adaptan a tu idioma y país.",
+  "theme": "Tema",
+  "dark": "Noche",
+  "light": "Claro",
+  "currency": "Moneda",
+  "install_help": "Instálala en el móvil: en iPhone, Compartir → «Añadir a pantalla de inicio»; en Android, menú → «Instalar app».",
+  "logout": "Cerrar sesión"
+ },
+ "share": {
+  "text": "Así ha acabado nuestra partida de {game} 🎲 #TROQLY"
+ },
+ "errors": {
+  "server": "Algo ha fallado. Prueba otra vez en un momento.",
+  "offline": "Sin conexión. Revisa tu internet.",
+  "auth_required": "Necesitas entrar en tu cuenta.",
+  "bad_email": "Ese email no parece válido.",
+  "short_password": "La contraseña necesita al menos 8 caracteres.",
+  "email_taken": "Ya hay una cuenta con ese email.",
+  "bad_login": "Email o contraseña incorrectos.",
+  "not_member": "No perteneces a este grupo.",
+  "not_found": "No lo encontramos.",
+  "name_required": "Falta el nombre.",
+  "ai_disabled": "La IA no está activada en el servidor.",
+  "quota": "La IA está saturada. Prueba en un minuto.",
+  "daily_limit": "La IA descansa hasta mañana: hemos llegado al límite gratuito de hoy.",
+  "ai_error": "La IA no ha podido responder. Prueba otra vez.",
+  "bad_key_or_request": "La IA no ha aceptado la petición.",
+  "model_not_found": "La IA no está disponible ahora mismo.",
+  "bad_json": "La IA ha respondido algo raro. Prueba otra vez.",
+  "empty": "Escribe una pregunta.",
+  "not_ready": "El manual todavía se está preparando.",
+  "no_files": "Sube un PDF o fotos.",
+  "too_big": "El archivo es demasiado grande (máximo 25 MB).",
+  "full": "La mesa está llena.",
+  "forbidden": "Solo el anfitrión puede hacer eso.",
+  "no_players": "No hay jugadores en la mesa.",
+  "bad_request": "Faltan datos.",
+  "bad_status": "Estado no válido."
+ }
+}

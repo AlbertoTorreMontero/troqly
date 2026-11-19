@@ -1,0 +1,44 @@
+funcion,origen,prioridad,hecho
+Cuenta email + contraseña,brief,imprescindible,sí
+Grupos con enlace de invitación,brief,imprescindible,sí
+Colección con estados (tengo/quiero/quiero jugarlo/sin estrenar),ref1,imprescindible,sí
+Filtros por jugadores/duración/mecánica,ref1,imprescindible,sí
+Lista semilla ~100 juegos + alta manual,brief,imprescindible,sí
+Mesa en vivo: código + QR + entrar sin registro,mejora,imprescindible,sí
+Marcador en tiempo real en todas las pantallas,mejora,imprescindible,sí
+Temporizador por turno,ref1/ref2,imprescindible,sí
+Dado,ref2,importante,sí
+¿Quién empieza?,ref2,importante,sí
+Podio top 3,brief,imprescindible,sí
+Tarjeta para compartir (imagen),ref1,imprescindible,sí
+Partida guardada en historial de todos,mejora,imprescindible,sí
+% de victorias,ref1,imprescindible,sí
+H-index,ref1,importante,sí
+Juegos más jugados,ref1,importante,sí
+Rachas,ref1,importante,sí
+Coste por partida,ref1,importante,sí
+Heatmap de partidas,ref1,importante,sí
+Estadísticas por mecánica,mejora,importante,sí
+Rivalidades y ranking de grupo,mejora,imprescindible,sí
+Logros con jerga (AP/Kingmaker/Sandbagger/Pile of Shame),mejora,importante,sí
+Asistente reglas: subir PDF o fotos,ref2,imprescindible,sí
+Asistente reglas: respuesta solo del manual con página,mejora,imprescindible,sí
+Asistente reglas: 'no aparece en el manual',mejora,imprescindible,sí
+Asistente reglas: marcar respuesta incorrecta,mejora,importante,sí
+Asistente reglas: responde en idioma del usuario,mejora,imprescindible,sí
+¿A qué jugamos?,mejora,importante,sí
+Podcasts: directorio filtrable por idioma + búsqueda,ref3,imprescindible,sí
+Podcasts: reproductor (velocidad/±30s/segundo plano),ref3,imprescindible,sí
+Podcasts: seguir donde lo dejé,ref3,imprescindible,sí
+Podcasts: seguir + escuchar más tarde,ref3,importante,sí
+Podcasts: aviso episodios nuevos (contador en la app; push web no),ref3,importante,sí
+Podcasts: 'Escuchar sobre este juego',mejora,imprescindible,sí
+Podcasts: recomendaciones por colección,mejora,importante,sí
+Podcasts: compartir episodio con el grupo,mejora,importante,sí
+Podcasts: resumen IA en idioma del usuario,mejora,importante,sí
+i18n ES + EN completos en archivos,brief,imprescindible,sí
+Detectar idioma + cambiar en ajustes,brief,imprescindible,sí
+Fechas/números/monedas con Intl,brief,imprescindible,sí
+PWA instalable iPhone/Android,brief,imprescindible,sí
+Modo claro/oscuro con la marca,mejora,importante,sí
+Modelo de datos preparado para cafés/tiendas,brief,imprescindible,sí

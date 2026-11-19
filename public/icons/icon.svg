@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#15131F"/>
+  <!-- marco del troquel (el hueco que deja la pieza) -->
+  <path d="M96 150 L96 362 Q96 416 150 416 L362 416 Q416 416 416 362 L416 150 Q416 96 362 96 L150 96 Q96 96 96 150 Z" fill="none" stroke="#35304A" stroke-width="14" stroke-dasharray="26 18" stroke-linecap="round"/>
+  <!-- pieza destroquelada, ligeramente girada y levantada -->
+  <g transform="rotate(-9 256 256) translate(8 -10)">
+    <path d="M168 150 Q168 128 190 128 L230 128 Q236 104 256 104 Q276 104 282 128 L322 128 Q344 128 344 150 L344 232 Q368 238 368 258 Q368 278 344 284 L344 362 Q344 384 322 384 L190 384 Q168 384 168 362 Z" fill="#FF6B4A"/>
+    <!-- pestañas del troquel recién cortadas -->
+    <rect x="152" y="236" width="18" height="40" rx="5" fill="#F6F1E7"/>
+    <rect x="236" y="382" width="40" height="16" rx="5" fill="#F6F1E7"/>
+    <!-- marcas de juego -->
+    <circle cx="222" cy="214" r="17" fill="#15131F"/>
+    <circle cx="290" cy="298" r="17" fill="#15131F"/>
+    <circle cx="256" cy="256" r="11" fill="#FFC845"/>
+  </g>
+</svg>
