@@ -77,7 +77,7 @@ async function generate({ parts, system, schema, temperature = 0.2, scope = 'mis
   await bump(scope);
   const body = {
     contents: [{ role: 'user', parts }],
-    generationConfig: { temperature, maxOutputTokens: maxTokens },
+    generationConfig: { temperature, maxOutputTokens: Math.max(2048, maxTokens * 4) }, // los modelos que razonan gastan tokens pensando
   };
   if (system) body.systemInstruction = { parts: [{ text: system }] };
   if (schema) {
@@ -123,7 +123,7 @@ async function health() {
       parts: [{ text: 'Reply with exactly the word: troqly' }],
       scope: 'health',
       temperature: 0,
-      maxTokens: 20,
+      maxTokens: 256,
     });
     lastHealth = { ok: /troqly/i.test(out), model: await model(), sample: out.slice(0, 40), at: Date.now() };
   } catch (e) {
